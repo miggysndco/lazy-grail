@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lazy-grail/static/css/main.e7d99f5d.css",
+    "main.js": "/lazy-grail/static/js/main.68cc68bc.js",
+    "static/media/home.png": "/lazy-grail/static/media/home.9e5d6e08aa6883b10a05.png",
+    "static/media/product.jpg": "/lazy-grail/static/media/product.da594dcb7eb31b4ef9a5.jpg",
+    "static/media/about.jpg": "/lazy-grail/static/media/about.f70d3d5b1dc78dcd20ed.jpg",
+    "index.html": "/lazy-grail/index.html",
+    "main.e7d99f5d.css.map": "/lazy-grail/static/css/main.e7d99f5d.css.map",
+    "main.68cc68bc.js.map": "/lazy-grail/static/js/main.68cc68bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7d99f5d.css",
+    "static/js/main.68cc68bc.js"
+  ]
+}
