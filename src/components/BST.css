@@ -1,0 +1,95 @@
+.bst {
+    display: flex;
+    justify-content: center; /* Center the entire container */
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: #fff;
+  }
+  
+  .bst-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    gap: 30px; /* Add space between items */
+    max-width: 1600px; /* Limit the maximum width of the container */
+    width: 100%;
+  }
+  
+  .bst-items {
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bst-items h2 {
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    text-align: left;
+  }
+
+  .bst-items i {
+    font-size: 1.4rem;
+  }
+  
+  .bst-items p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+  }
+
+  @media (max-width: 768px) {
+    .bst {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+
+    .bst-container {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Reduce the gap between items */
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .bst-items {
+        padding: 15px;
+        text-align: center; /* Center text for a more balanced look */
+    }
+
+    .bst-items h2 {
+        font-size: 1.2rem;
+    }
+
+    .bst-items i {
+        font-size: 1.2rem;
+    }
+
+    .bst-items p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bst {
+        padding-top: 8%;
+        padding-bottom: 12%;
+    }
+
+    .bst-items h2 {
+        font-size: 1rem;
+    }
+
+    .bst-items i {
+        font-size: 1rem;
+    }
+
+    .bst-items p {
+        font-size: 0.8rem;
+    }
+}

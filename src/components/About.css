@@ -1,0 +1,193 @@
+.hero-about {
+    background: url('../images/about.jpg') center center/cover 
+    no-repeat;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.hero-about > h1 {
+    color: #ffffff;
+    font-size: 80px;
+    margin-top: -50px;
+    text-shadow:
+      3px 3px 0 #000,
+      -3px 3px 0 #000,
+      -3px -3px 0 #000,
+      3px -3px 0 #000;
+}
+
+.about--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    gap: 7%;
+    background-color: rgb(255, 255, 255);
+}
+
+.about-items {
+    width: 800px;
+}
+
+.about-items img {
+    width: 750px;
+    height: 580px;
+}
+
+.about-items p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.about-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    font-size: 55px;
+    padding: 7px;
+}
+
+.faqs {
+    padding: 60px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: #000000;
+}
+
+.faqs-title {
+    color: white;
+    padding-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.faqs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.faqs-items {
+    flex: 1 1 calc(33.333% - 20px);
+    border: 1px solid #fff;
+    border-radius: 1px;
+    padding: 25px;
+    padding-bottom: 50px;
+    background-color: #000000;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.faqs-items p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .hero-about {
+        height: 30vh;
+    }
+
+    .hero-about > h1 {
+        font-size: 40px;
+        margin-top: -30px;
+    }
+
+    .about--container {
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        gap: 20px;
+    }
+
+    .about-items {
+        width: 100%;
+    }
+
+    .about-items img {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .about-text {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .faqs {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .faqs-container {
+        flex-direction: column;
+    }
+
+    .faqs-items {
+        flex: 1 1 100%;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .faqs-items p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-about > h1 {
+        font-size: 30px;
+    }
+
+    .about-text {
+        font-size: 24px;
+    }
+    
+    .about-items img {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .faqs-title {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .faqs-items p {
+        font-size: 12px;
+    }
+}
